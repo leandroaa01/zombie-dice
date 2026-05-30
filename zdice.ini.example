@@ -1,0 +1,14 @@
+[Game]
+weak_dice = 6
+strong_dice = 3
+tough_dice = 3
+max_players = 3
+brains_to_win = 13
+max_turns = 0  # Value 0 means the game plays without limit of turns.
+isbot = true
+n_bots = 2
+
+[Dice]
+weak_die_faces   = "bbbffs"
+strong_die_faces = "bbssff"
+tough_die_faces  = "bffsss"
